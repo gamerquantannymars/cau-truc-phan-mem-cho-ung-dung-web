@@ -1,6 +1,8 @@
 from flask_sqlalchemy import SQLAlchemy
 
+
 db = SQLAlchemy()
+
 
 class User(db.Model):
     """
@@ -11,4 +13,7 @@ class User(db.Model):
     email = db.Column(db.String(120), unique=True, nullable=False)
 
     def __repr__(self):
+        """
+        Trả về chuỗi đại diện cho đối tượng User.
+        """
         return f'<User {self.username}>'
