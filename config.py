@@ -6,3 +6,4 @@ class Config:
     # Tắt theo dõi sự thay đổi để tiết kiệm tài nguyên
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     # Cấu hình thêm có thể được thêm vào đây trong tương lai
+    # Các thiết lập khác có thể được thêm vào nếu cần thiết
