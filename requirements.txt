@@ -1,2 +1,3 @@
+# Đây là yêu cầu cho dự án Flask
 Flask
 Flask-SQLAlchemy
