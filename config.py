@@ -1,7 +1,8 @@
 import os
 
 class Config:
-    # Database URI configuration
+    # Cấu hình URI cơ sở dữ liệu
     SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL') or 'sqlite:///site.db'
-    # Disable track modifications to save resources
+    # Tắt theo dõi sự thay đổi để tiết kiệm tài nguyên
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    # Cấu hình thêm có thể được thêm vào đây trong tương lai
